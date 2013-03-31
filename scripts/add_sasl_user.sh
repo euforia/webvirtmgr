@@ -15,13 +15,13 @@ fi
 if [ -e "/etc/libvirt/passwd.db" ]; then
 	user_req=`sasldblistusers2 -f /etc/libvirt/passwd.db | grep {{ sasl_user }}`;
 	if [ "$user_req" == "" ];then
-		echo "Adding SASL user: $user2create"
+		echo "Adding SASL user (libvirt): $user2create"
 		saslpasswd2 -a libvirt $user2create
 	else
 		echo "User already exists: $user2create"
 	fi
 else
-	echo "Adding SASL user: $user2create"
+	echo "Adding SASL user (libvirt): $user2create"
 	saslpasswd2 -a libvirt $user2create
 fi
 
