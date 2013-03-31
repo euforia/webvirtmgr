@@ -8,7 +8,7 @@ fi
 
 user2create=$1;
 if [ "$user2create" == "" ]; then
-	echo "\n\t$0\tusername\n";
+	echo -e "\n\t$0\tusername\n";
 	exit -1;
 fi
 
