@@ -27,4 +27,5 @@ This aims to simplify the install process of retspen's webvirtmgr by providing a
    * $ yum localinstall /path/to/webvirtmgr/rpms/webvirtmgr-hyp-1.6-1.el6.x86_64.rpm
 
 
+** Note: Currently the hypervisor RPM does not create any SASL credentials.  These still need to be performed on the hypervisor.
 ** Note: The epel repo may also be required.
