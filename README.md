@@ -12,7 +12,7 @@ webvirtmgr-1.6-1.el6.x86_64.rpm
    * Provides a default webvirtmgr.conf with the webroot set to /var/www/webvirtmgr and installs it under /etc/httpd/conf.d
  
  * Installation
-   $ yum localinstall /path/to/webvirtmgr/rpms/webvirtmgr-1.6-1.el6.x86_64.rpm
+   * $ yum localinstall /path/to/webvirtmgr/rpms/webvirtmgr-1.6-1.el6.x86_64.rpm
 
 
 webvirtmgr-hyp-1.6-1.el6.x86_64.rpm
@@ -24,7 +24,7 @@ webvirtmgr-hyp-1.6-1.el6.x86_64.rpm
    * Configures /etc/libvirt/libvirtd.conf
 
  * Installation
-   $ yum localinstall /path/to/webvirtmgr/rpms/webvirtmgr-hyp-1.6-1.el6.x86_64.rpm
+   * $ yum localinstall /path/to/webvirtmgr/rpms/webvirtmgr-hyp-1.6-1.el6.x86_64.rpm
 
 
 ** Note: The epel repo may also be required.
