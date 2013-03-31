@@ -1,7 +1,7 @@
 webvirtmgr
 ==========
 
-Contains the RPM for webvirtmgr (under rpms) created by retspen.  It provides a default webvirtmgr.conf and takes care of the required pre-requisites.
+This aims to simplify the install process of retspen's webvirtmgr by providing an RPM for the install.  It provides a default webvirtmgr.conf apache configuration file and installs pre-requisites/dependencies.
 
 Here is the overall flow of the RPM:
 
