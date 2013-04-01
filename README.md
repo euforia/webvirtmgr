@@ -3,6 +3,7 @@ webvirtmgr
 
 This aims to simplify the install process of retspen's webvirtmgr by providing a RPM for the web interface as well as a RPM to configure the hypervisor along with a script to add SASL users to the hypervisor.
 
+These RPM's should work under CentOS, RHEL, Fedora, Oracle Linux 6.
 
 ## webvirtmgr-1.6-1.el6.x86_64.rpm
  
