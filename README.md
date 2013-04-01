@@ -34,5 +34,6 @@ This aims to simplify the install process of retspen's webvirtmgr by providing a
 
 
 ** Notes: 
+ * You still must run /var/www/webvirtmgr/manage.py syncdb up install. (Fix to come very soon)
  * Currently the hypervisor RPM does not create SASL credentials.  As a temporary solution you can use the 'add_sasl_user.sh' script provided.
  * The epel repo may also be required.
