@@ -31,9 +31,10 @@ This aims to simplify the install process of retspen's webvirtmgr by providing a
 
 ### Description:
  * Checks if the user exists or prompts for a password to create new user.
+ * This script should be run on the hypervisor.
 
 
 
 ** Notes: 
- * Currently the hypervisor RPM does not create SASL credentials.  As a temporary solution you can use the 'add_sasl_user.sh' script provided.
+ * Currently the hypervisor RPM does not create SASL credentials.  'add_sasl_user.sh' is a temporary resolution.
  * The epel repo may also be required.
