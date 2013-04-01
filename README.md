@@ -37,5 +37,4 @@ More on auto configuration below.
 
 
 ** Notes: 
- * Currently the hypervisor RPM does not create SASL credentials.  'add_sasl_user.sh' is a temporary resolution.
  * The epel repo may also be required.
