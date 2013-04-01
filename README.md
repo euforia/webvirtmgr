@@ -22,6 +22,8 @@ These RPM's should work under CentOS, RHEL, Fedora, Oracle Linux 6.
 ## webvirtmgr-hyp-1.6-1.el6.x86_64.rpm
 
 ### Description:
+This package is to be deployed on the hypervisor.  It's only job is to change the configuration files below to be as non-invasive as possible.
+
    * Installs pre-requisites: kvm libvirt
    * Configures /etc/sysconfig/libvirtd
    * Configures /etc/libvirt/qemu.conf
