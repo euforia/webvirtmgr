@@ -5,6 +5,14 @@ This aims to simplify the install process of retspen's webvirtmgr by providing a
 
 These RPM's should work under CentOS, RHEL, Fedora, Oracle Linux 6.
 
+
+## Auto Configuration
+This will attempt to prepare your hypervisor to be able to talk to webvirtmgr.  If the SSH credentials are populated during the hypervisor setup, auto configuration will automatically be attempted.  If the hypervisor is already configured you can simply authenticate and start using it.  
+
+ * Only supported for CentOS variants.
+ * SSH into the hypervisor and install webvirtmgr-hyp-1.6-1 package.
+ * Check if provided SASL user exists.  If not add the user.
+
 ## webvirtmgr-1.6-1.el6.x86_64.rpm
  
 ### Description:
