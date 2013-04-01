@@ -7,7 +7,7 @@ These RPM's should work under CentOS, RHEL, Fedora, Oracle Linux 6.
 
 
 ## Auto Configuration
-This will attempt to prepare your hypervisor to be able to talk to webvirtmgr.  If the SSH credentials are populated during the hypervisor setup, auto configuration will automatically be attempted.  If the hypervisor is already configured you can simply authenticate and start using it.  
+This will attempt to prepare your hypervisor to be able to talk to webvirtmgr.  If the SSH credentials are populated during the hypervisor setup, auto configuration will automatically be attempted.
 
  * Only supported for CentOS variants.
  * SSH into the hypervisor and install webvirtmgr-hyp-1.6-1 package.
