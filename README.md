@@ -10,7 +10,7 @@ This aims to simplify the install process of retspen's webvirtmgr by providing a
    * Installs pre-requisites: httpd git Django python-virtinst httpd mod_python mod_wsgi python-websockify python-setuptools
    * Installs webvirtmgr under /var/www/.
    * Provides a default webvirtmgr.conf with the webroot set to /var/www/webvirtmgr and installs it under /etc/httpd/conf.d
-   * Creates a default admin account.  The credentials can be found in the 'DEFAULTS' file.
+   * Creates a default admin account.  The credentials can be found in the 'configs/DEFAULTS' file.
   
 ### Installation:
    * $ yum localinstall /path/to/webvirtmgr/rpms/webvirtmgr-1.6-1.el6.x86_64.rpm
