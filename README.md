@@ -10,7 +10,7 @@ These RPM's should work under CentOS, RHEL, Fedora, Oracle Linux 6.
 ### Description:
    * Installs pre-requisites: httpd git Django python-virtinst httpd mod_python mod_wsgi python-websockify python-setuptools
    * Installs webvirtmgr under /var/www/.
-   * Provides a default webvirtmgr.conf with the webroot set to /var/www/webvirtmgr and installs it under /etc/httpd/conf.d
+   * Provides a default webvirtmgr.conf (VirtualHost) with the webroot set to /var/www/webvirtmgr and installs it under /etc/httpd/conf.d
    * Creates a default admin account.  The credentials can be found in the 'configs/DEFAULTS' file.
      * To change the default admin password you can issue the following commands:
         * $ cd /var/www/webvirtmgr && ./manage.py changepassword admin
