@@ -28,6 +28,7 @@ This package is to be deployed on the hypervisor.  It's only job is to change th
    * Configures /etc/sysconfig/libvirtd
    * Configures /etc/libvirt/qemu.conf
    * Configures /etc/libvirt/libvirtd.conf
+   * Creates a default 'webvirtmgr' libvirt SASL user. The credentials can be found in the 'configs/DEFAULTS' file. 
 
 ### Installation:
    * $ yum localinstall /path/to/webvirtmgr/rpms/webvirtmgr-hyp-1.6-1.el6.x86_64.rpm
